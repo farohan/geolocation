@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="See where you are using Geolocation.">
+    <meta name="keywords" content="gps, coordinates, satellite, tracking, map, speed, location">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your GPS Statistics - Private</title>
+</head>
+<body>
+    <h1 id="doc-title">Your GPS Statistics</h1>
+    <h2 id="catcher">See where you are.</h2>
+    <div class="stats">
+        <div class="get-button">
+            <button class="get-info" onclick="getGeolocation()">Get Info</button>
+        </div>
+        <div class="stat">
+            <p class="label">Statistics</p>
+            <textarea readonly id="numbers"></textarea>
+        </div>
+        <div class="copy-button">
+            <button class="copy-info" onclick="copy()">Copy to Clipboard</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
