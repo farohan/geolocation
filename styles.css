@@ -70,6 +70,7 @@ body {
     min-height: 35vh;
     flex-grow: 2;    
     font-size: 1.85rem;
+    resize: none;
 }
 
 @media only screen and (max-width: 800px) {
